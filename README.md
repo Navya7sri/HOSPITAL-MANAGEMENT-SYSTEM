@@ -33,24 +33,6 @@ The project consists of multiple tables in MySQL:
 - **Contracts:** Stores contract details (Start Date, End Date, Supervisor).  
 - **Prescriptions:** Links doctors, patients, and prescribed drugs.  
 
-## 📌 Installation Guide  
-1️⃣ Clone the repository:  
-```sh
-git clone https://github.com/your-repository/hospital-management-system.git
-cd hospital-management-system
-```  
-2️⃣ Start the backend using **XAMPP**:  
-   - Open **XAMPP Control Panel**  
-   - Start **Apache** and **MySQL**  
-   - Import the database (`hospital_db.sql`) into **PHPMyAdmin**  
-
-3️⃣ Run the project:  
-   - Place project files in **htdocs** (XAMPP directory).  
-   - Open a web browser and go to:  
-     ```
-     http://localhost/hospital-management-system/
-     ```  
-
 ## 📊 System Workflow  
 1️⃣ **User Login:** Patients, Doctors, and Admins log in using their credentials.  
 2️⃣ **Patient Registration:** New patients can create accounts and book appointments.  
@@ -62,6 +44,3 @@ cd hospital-management-system
 🔹 **Automated Billing System** – Generate invoices for patient treatments.  
 🔹 **SMS/Email Notifications** – Appointment reminders and prescription alerts.  
 🔹 **AI-powered Diagnosis Assistance** – Predictive analytics for patient conditions.  
-
-## 📜 License  
-This project is open-source under the **MIT License**.  
